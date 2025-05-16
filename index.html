@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pagina con CSS Grid</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="container-flex">
+      <h1 class="logo">Skills</h1>
+      <nav>
+        <ul>
+          <li class="nav"><a class="outline" href="">Log in</a></li>
+          <li class="nav"><a href="" class="outline">Check recourses</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section class="showcase">
+    <div class="container grid-2">
+      <div class="showcase-text">
+        <h1>Aprende sobre mecánica de autos hoy mismo, sé el mejor.</h1>
+        <p class="supporting-text">Más de 30.000 personas están aprendiendo hoy mismo</p>
+        <form class="showcase-form" action="">
+          <input type="email" placeholder="Ingresa tu correo electrónico">
+          <input type="submit" class="btn" value="Empieza a aprender">
+        </form>
+        <p class="little-info">Prueba nuestro curso de mecánica de manera gratuita</p>
+      </div>
+      <div class="showcase-image">
+        <img src="./img/6a822acaf9aa5193b216eaeb31e9ea71.jpg" alt="Porsche 911 GT3 RS">
+      </div>
+    </div>
+  </section>
+
+  <section class="stats container">
+    <div class="stats-grid">
+      <div class="stat">
+        <i class="fa fa-folder-open fa-2x"></i>
+        <h3 class="title">Over 300 available courses</h3>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      </div>
+      <div class="stat">
+        <i class="fa fa-graduation-cap fa-2x"></i>
+        <h3 class="title">Free certificate offered on all courses</h3>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      </div>
+      <div class="stat">
+        <i class="fa fa-credit-card-alt fa-2x"></i>
+        <h3 class="title">Book 1on1 session for as low as $5</h3>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

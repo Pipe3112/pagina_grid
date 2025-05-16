@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #4b0082;
+    color: white;
+    padding: 15px 30px;
+  }
+  
+  .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    font-size: 28px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar a {
+    margin-left: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #d1a9f5;
+    border-bottom: 2px solid #d1a9f5;
+  }
+  
+  .showcase {
+    background-color: #4b0082;
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .showcase-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .supporting-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .showcase-form input[type='email'] {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    background-color: #9867C5;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b089d6;
+  }
+  
+  .little-info {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .showcase-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .stats {
+    margin-top: 60px;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .stat {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .stats .fa {
+    color: #9867C5;
+    margin-bottom: 15px;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: #4b0082;
+    margin-bottom: 10px;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+  }
+  
